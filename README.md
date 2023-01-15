@@ -44,11 +44,9 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 
 <h3>Step 3: Create Virtual Machine</h3>
      
-- Go to search bar and search "virtual machine"
-- Select create, then select Azure virtual machine
-- You will need to select the resource group, the region, and create a name for the virtual machine
-    - For the example we will name the virtual machine virtualmachine
-    - Use same resource group and region as step 2/3
+- At the portal, click on virtual machine and click create. 
+- Once at the create virtual machine menu, follow all the instructions. Make sure to fill out all the areas that have a red asterisk on them (resource group, name, etc.).
+- Remember your username and password! Once this is all completed, your virtual machine will appear in your resource group.
 
 
 <p align="center">
@@ -59,12 +57,13 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 <img src="https://i.imgur.com/a0OIYax.png" height="80%" width="80%" alt="Create Virtual Machine"/>
 </p>
 
-<h3>Step 4: Connect to virtual machine using Microsoft Remote Desktop on macOS</h3>
-The final step to this process is accessing the virtual machine using Microsoft Remote Desktop. If you are using macOS (like me), you have to download the application in the App Store. 
+<h3>Step 4: Connect to Virtual Machine 
+The final step to this process is accessing the virtual machine using Microsoft Remote Desktop. 
+- First you will need to find the Public IP address of your virtual machine
+- Select the virtual machhine we created in step and the IP address will be on the right hand side
+- Copy the IP address
 
-<p align="center">
-<img src="https://i.imgur.com/pp1yQTE.png" height="80%" width="80%" alt="Microsoft Remote Desktop"/>
-</p>
+
 
 In order to connect to the virtual machine, first you need the public IP address. You can find this on the right hand side of this menu.
 
@@ -78,8 +77,6 @@ Once Microsoft Remote Desktop is downloaded, open the application. Click add PC.
 <img src="https://i.imgur.com/WcRdlX3.png" height="80%" width="80%" alt="Microsoft Remote Desktop 1"/>
 </p>
 
-<p align="center">
-<img src="https://i.imgur.com/4IKJFik.png" height="80%" width="80%" alt="Windows 10 VM"/>
-</p>
 
-Congratulations! You have created your first virtual machine within Azure. If you want to save your free $200 credits, make sure you delete ALL resource groups because most of Azure services are pay as you go (unless otherwise stated). Thank you!
+
+Congratulations! You have created your first virtual machine within Azure. If you want to save your free $200 credits, make sure you delete ALL resource groups!
