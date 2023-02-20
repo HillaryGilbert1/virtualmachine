@@ -36,9 +36,9 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
     - For this example, we will be using RG-Lab-1 for the name and (US) West3 for the region
 
 <p align="center">
-<img src="https://i.imgur.com/XHEph5v.png" height="70%" width="70%" alt="Azure Free Account"/> <p align="center">
-<img src="https://i.imgur.com/Nr5RDyp.png" height="70%" width="70%" alt="Azure Free Account"/> <p align="center">
-<img src="https://i.imgur.com/WabrIx6.png" height="70%" width="70%" alt="Azure Free Account"/>
+<img src="https://i.imgur.com/RNJFEvG.png" height="70%" width="70%" alt="Azure Free Account"/> <p align="center">
+<img src="https://i.imgur.com/ukItl69.png" height="70%" width="70%" alt="Azure Free Account"/> <p align="center">
+<img src="https://i.imgur.com/BTMJhLX.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
 </p>
 
@@ -50,11 +50,11 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 
 
 <p align="center">
-<img src="https://i.imgur.com/XC53r2o.png" height="80%" width="80%" alt="Virtual Machine Menu with arrow"/>
+<img src="https://i.imgur.com/3IwUDZw.png" height="80%" width="80%" alt="Virtual Machine Menu with arrow"/>
 </p>
 
 <p align="center">
-<img src="https://i.imgur.com/a0OIYax.png" height="80%" width="80%" alt="Create Virtual Machine"/>
+<img src="https://i.imgur.com/8JikE9A.png" height="80%" width="80%" alt="Create Virtual Machine"/>
 </p>
 
 <h3>Step 4: Connect to Virtual Machine 
@@ -68,14 +68,12 @@ The final step to this process is accessing the virtual machine using Microsoft 
 In order to connect to the virtual machine, first you need the public IP address. You can find this on the right hand side of this menu.
 
 <p align="center">
-<img src="https://i.imgur.com/gT6F62H.png" height="80%" width="80%" alt="SampleVM menu with arrow and circle"/>
+<img src="https://i.imgur.com/qIKSDsI.png" height="80%" width="80%" alt="SampleVM menu with arrow and circle"/>
 </p>
 
 Once Microsoft Remote Desktop is downloaded, open the application. Click add PC. Copy and paste the public IP address of the virtual machine that was created when prompted. Type in the username and password the click connect. 
 
 <p align="center">
-<img src="https://i.imgur.com/WcRdlX3.png" height="80%" width="80%" alt="Microsoft Remote Desktop 1"/>
-</p>
 
 
 
