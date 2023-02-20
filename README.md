@@ -77,4 +77,4 @@ After downloading Microsoft Remote Desktop, launch the application and select "a
 
 
 
-Congratulations on successfully creating your first virtual machine on Azure! To ensure that you can make use of your free $200 credits, it is important to delete ALL resource groups.
+<h2>Congratulations on successfully creating your first virtual machine on Azure! To ensure that you can make use of your free $200 credits, it is important to delete ALL resource groups.<h2>
