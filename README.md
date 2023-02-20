@@ -3,7 +3,7 @@
 </p>
 
 <h1>Microsoft Azure</h1>
-Microsoft Azure is a cloud platform and an online portal that will let you rent space to store or process your own data. This guide will demonstrate how to create an Azure account and create a virtual machine.
+This guide will show you how to set up an account on Microsoft Azure, a cloud platform and online portal that enables you to rent storage or processing space for your data. Additionally, it will provide instructions on how to create a virtual machine.
 
 <h2>Requirements</h2>
 
@@ -57,8 +57,8 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 <img src="https://i.imgur.com/8JikE9A.png" height="80%" width="80%" alt="Create Virtual Machine"/>
 </p>
 
-<h3>Step 4: Connect to Virtual Machine 
-The final step to this process is accessing the virtual machine using Microsoft Remote Desktop. 
+Step 4: Connect to Virtual Machine 
+- The final step to this process is accessing the virtual machine using Microsoft Remote Desktop. 
 - First you will need to find the Public IP address of your virtual machine
 - Select the virtual machhine we created in step and the IP address will be on the right hand side
 - Copy the IP address
@@ -71,10 +71,10 @@ In order to connect to the virtual machine, first you need the public IP address
 <img src="https://i.imgur.com/qIKSDsI.png" height="80%" width="80%" alt="SampleVM menu with arrow and circle"/>
 </p>
 
-Once Microsoft Remote Desktop is downloaded, open the application. Click add PC. Copy and paste the public IP address of the virtual machine that was created when prompted. Type in the username and password the click connect. 
+After downloading Microsoft Remote Desktop, launch the application and select "add PC." When prompted, enter the public IP address of the virtual machine that was created. Next, enter the username and password, and finally, click "connect" to establish the connection. 
 
 <p align="center">
 
 
 
-Congratulations! You have created your first virtual machine within Azure. If you want to save your free $200 credits, make sure you delete ALL resource groups!
+Congratulations on successfully creating your first virtual machine on Azure! To ensure that you can make use of your free $200 credits, it is important to delete ALL resource groups.
